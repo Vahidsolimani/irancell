@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="">
+    <nav class="w-full mood bg-black">
+        <div class="container mx-auto px-5">
+            <div class="hidden md:flex justify-between items-center *:text-white p-5">
+                <div>
+                    <ul class="flex gap-x-5 items-center *:text-xs">
+                        <li class="bg-yellow-400 py-2 px-4 text-black rounded"><a href="">مشترکین شخصی</a></li>
+                        <li><a href="">مشترکین سازمانی</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex gap-x-5 *:text-xs">
+                        <li><a href="">اخبار</a></li>
+                        <li><a href="">بازاگاه ایرانسل</a></li>
+                        <li><a href="">ترابرد به ایرانسل</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="w-full mood ">
+      
+        <div class="container mx-auto px-5">
+            <div class="flex justify-between items-center p-5">
+                <!-- Logo and Desktop Menu -->
+                <div class="flex gap-x-5 items-center">
+                    <img class="w-2/6 bg-white bg-opacity-50 md:w-1/6" src="img/logo.svg" alt="">
+                    <ul class="w-5/6 hidden md:flex gap-x-5">
+                        <li><a href="">محصولات</a></li>
+                        <li><a href="">خدمات</a></li>
+                        <li><a href="">پشتیبانی</a></li>
+                        <li><a href="">فیبرنوری</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Icons and Mobile Menu Button -->
+                <div class="flex justify-center accent-inherit">
+                    <ul class="flex items-center gap-x-8 *:text-lg">
+                        <li class="hidden md:flex"><a href=""><i class="bi bi-question-circle"></i></a></li>
+                        <li class="hidden md:flex"><a href=""><i class="bi bi-geo-alt"></i></a></li>
+                        <li class=""><a href=""><i class="bi bi-person"></i></a></li>
+                        <li class=""><a href=""><i class="bi bi-handbag"></i></a></li>
+                        <li class="uppercase hidden md:flex font-bold"><a href="">en</a></li>
+                        <li class="md:hidden"><button id="mobile-menu-button"><i class="bi bi-list"></i></button></li>
+                        <li class="toggel cursor-pointer"><i class="bi p-3 bi-lightbulb"></i></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Mobile Menu (hidden by default) -->
+            <div id="mobile-menu" class="hidden md:hidden bg-gray-100 p-4 rounded-lg shadow-lg">
+                <ul class="space-y-3">
+                    <li class="border-b border-gray-200 pb-2"><a href="" class="block w-full">محصولات</a></li>
+                    <li class="border-b border-gray-200 pb-2"><a href="" class="block w-full">خدمات</a></li>
+                    <li class="border-b border-gray-200 pb-2"><a href="" class="block w-full">پشتیبانی</a></li>
+                    <li class="border-b border-gray-200 pb-2"><a href="" class="block w-full">فیبرنوری</a></li>
+                    <li class="pt-2 flex justify-between">
+                        <a href=""><i class="bi bi-question-circle"></i> راهنما</a>
+                        <a href=""><i class="bi bi-geo-alt"></i> موقعیت</a>
+                        <span class="uppercase font-bold">en</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </header>
+    <section class="w-full mood">
+        <div class="container mx-auto px-5">
+            <div>
+                <div class="swiper  mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <figure class=" relative">
+                                <img src="img/s1.jpg" alt="">
+                                <figcaption class="absolute text-3xl p-16 font-bold top-40 ring-0">تکمیل پوشش اینترنت
+                                    فیبر نوری در بابل پایداری، <br> سرعت و کیفیت بالای ارتباطات</figcaption>
+                            </figure>
+                            <div
+                                class="bg-white bg-opacity-40 flex justify-start md:justify-center absolute  top-0 items-center w-full h-[100px]">
+                                <button class="bg-yellow-400 scale-75 md:scale-100 w-1/4 md:font-bold py-3 rounded-full"> اطلاعات بیشتر </button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <figure class="relative">
+                                <img src="img/s2.webp" alt="">
+                                <figcaption class="absolute text-3xl p-16 *:text-white font-bold top-40 ring-0">
+                                    <h3 class="font-bold text-lg my-5">ماموریت ممکن!</h3>
+                                    <p class="py-5">شرکت در قرعه‌کشی ۱۶ آیفون ۱۶ <br> با انجام ماموریت در قلب ایرانسل‌من
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <div
+                                class="bg-white bg-opacity-40 flex justify-start md:justify-center absolute top-0 items-center w-full h-[100px]">
+                                <button class="bg-yellow-400 scale-75 md:scale-100  w-1/4 font-bold py-3 rounded-full"> اطلاعات بیشتر </button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <figure class="relative">
+                                <img src="img/s3.webp" alt="">
+                                <figcaption class="absolute text-3xl p-16 font-bold top-40 ring-0">تجربه ارتباط بدون مرز
+                                    <br>
+                                    با رومینگ ایرانسل</figcaption>
+                            </figure>
+                            <div
+                                class="bg-white bg-opacity-40 flex justify-start md:justify-center absolute top-0 items-center w-full h-[100px]">
+                                <button class="bg-yellow-400 scale-75 md:scale-100  w-1/4 font-bold py-3 rounded-full"> اطلاعات بیشتر </button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <figure class="relative">
+                                <img src="img/s4.webp" alt="">
+                                <figcaption class="absolute hidden md:block  p-16 font-bold top-40 ring-0">
+                                    <h3 class="font-bold text-black text-5xl my-5">تو جان این جریانی!</h3>
+                                    <p class="py-5 text-xl text-white"> بسته تخفیفی مکالمه و اینترنت ویژه روز مادر </p>
+                                </figcaption>
+                            </figure>
+                            <div
+                                class="bg-white bg-opacity-40 flex justify-start md:justify-center absolute top-0 items-center w-full h-[100px]">
+                                <button class="bg-yellow-400 scale-75 md:scale-100  w-1/4 font-bold py-3 rounded-full"> اطلاعات بیشتر </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="autoplay-progress hidden">
+                        <svg viewBox="0 0 48 48 ">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full mood">
+        <div class="container mx-auto">
+            <div class="mt-20">
+                <div class="w-full mx-auto  bg-cover bg-center border-[8px] md:p-5 rounded-2xl bg-form">
+                    <div class="bg-white md:py-5 py-2 rounded-lg lg:w-1/3">
+                        <div class="w-full  flex justify-center items-center">
+                            <img class="p-10 w-[160px]" src="img/logo.svg" alt="">
+                        </div>
+                        <form class="flex w-full flex-wrap justify-center items-center gap-y-5" action="" name="myForm" onsubmit="vahid(event)">
+
+                            <input class="text-center h-9 p-7 rounded-full bg-blue-100 w-10/12" type="text" name="email"
+                            placeholder="ایمیل">
+                            <label class="text-red-500 text-center lab hidden" for=""> </label>
+                                <input class="text-center h-9 p-7 rounded-full bg-blue-100 w-10/12" type="text" name="pass"
+                                placeholder="کلمه عبور">
+                             <label class="text-red-500 text-center w-full p-4 lab hidden" for=""> </label>
+                             <div class="w-full flex justify-center mt-5 items-center">
+                                <button class="bg-yellow-400 w-10/12 font-bold py-3 rounded-full"> ورود به سایت </button>
+                            </div>
+                        </form>
+                        <div class="w-full flex justify-center mt-5 items-center">
+                            <a class="text-blue-500 decoration-slice text-xs" href="">اگر رمز عبور خود را فراموش کرده
+                                اید اینجا کلیک کنید!!</a>
+                        </div>
+                        <div class="w-full flex justify-center my-10 items-center">
+                            <div class="h-[2px] w-10/12 bg-blue-400"></div>
+                        </div>
+                        <div class="w-full flex justify-center mt-5 items-center">
+                            <button class="bg-blue-200 font-bold text-blue-500 w-10/12 py-3 rounded-full"> ورود با شماره
+                                موبایل </button>
+                        </div>
+                        <div class="w-full flex justify-center mt-5 md:my-8 items-center">
+                            <button class="bg-blue-200 font-bold text-blue-500 w-10/12 py-3 rounded-full"> ورود با
+                                یلونام </button>
+                        </div>
+                        <div class="w-full flex justify-center mt-5 items-center">
+                            <button class="bg-blue-200 font-bold text-blue-500 w-10/12 py-3 rounded-full"> ایجاد حساب
+                                کاربری جدید </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mood mt-10">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+            <path fill="#000000" fill-opacity="1"
+                d="M0,96L80,101.3C160,107,320,117,480,106.7C640,96,800,64,960,74.7C1120,85,1280,139,1360,165.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <footer class="w-full mood bg-black">
+        <div class="container mx-auto p-5 ">
+            <div class="lg:flex gap-x-20">
+                <div class="text-white ">
+                    <h3 class="font-bold">فروشگاه</h3>
+                    <ul class=" *:text-white *:text-sm mt-5 *:mt-3">
+                        <li><a href=""> خرید سیم کارت </a></li>
+                        <li><a href=""> خرید مودم </a></li>
+                        <li><a href=""> خرید گوشی </a></li>
+                        <li><a href=""> خرید شارژ </a></li>
+                        <li><a href=""> خرید بسته اینترنت </a></li>
+                    </ul>
+                </div>
+                <div class="text-white ">
+                    <h3 class="font-bold">سرویس فیبر نوری</h3>
+                    <ul class=" *:text-white *:text-sm mt-5 *:mt-3">
+                        <li><a href="">معرفی فیبرنوری</a></li>
+                        <li><a href="">ثبت نام اولیه</a></li>
+                        <li><a href="">خرید بسته فیبر نوری </a></li>
+                        <li><a href="">خرید مودم فیبر نوری</a></li>
+                        <li><a href="">پوشش شبکه فیبر نوری</a></li>
+                    </ul>
+                </div>
+                <div class="text-white ">
+                    <h3 class="font-bold"> جشنواره</h3>
+                    <ul class=" *:text-white *:text-sm mt-5 *:mt-3">
+                        <li><a href="">جشنواره های ایرانسلی</a></li>
+                        <li><a href="">فهرست برندگان</a></li>
+                        <li><a href=""> یک سال مهمان ما باشید</a></li>
+                        <li><a href="">مزایای سیم کارت دائمی</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="text-white ">
+                    <h3 class="font-bold">اطلاع رسانی</h3>
+                    <ul class=" *:text-white *:text-sm mt-5 *:mt-3">
+                        <li><a href="">وبلاگ</a></li>
+                        <li><a href="">اخبار</a></li>
+                        <li><a href="">اعلان های شبکه</a></li>
+                        <li><a href="">نظرسنجی سازمان تنظیم مقررات</a></li>
+                        <li><a href="">شرایط و ضوابط</a></li>
+                        <li><a href="">قوانین خدمات پیامک انبوه</a></li>
+                    </ul>
+                </div>
+                <div class="text-white ">
+                    <h3 class="font-bold">همکاری با ما</h3>
+                    <ul class=" *:text-white *:text-sm mt-5 *:mt-3">
+                        <li><a href="">استخدام و کار آموزی</a></li>
+                        <li><a href="">همکاری با ایرانسل من</a></li>
+                        <li><a href="">برنامه های دانشجویی</a></li>
+                        <li><a href="">حمایت های مالی</a></li>
+                        <li><a href="">مناقصه‌ها و اطلاعیه‌ها</a></li>
+                    </ul>
+                </div>
+                <div class="text-white ">
+                    <h3 class="font-bold">درباره ایرانسل</h3>
+                    <ul class=" *:text-white *:text-sm mt-5 *:mt-3">
+                        <li><a href="">معرفی ایرانسل</a></li>
+                        <li><a href=""> مزایای ایرانسل</a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""> لوگوهای ایرانسل</a></li>
+                        <li><a href="">پایداری و سرمایه‌گذاری <br> اجتماعی</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:flex justify-between mt-20 ">
+                <div class="lg:flex *:mt-10 lg:mt-0 gap-x-20">
+                    <div class="">
+                        <div class="flex gap-x-4"> <i class="bi text-white  bi-telephone"></i>
+                            <p class="text-white">خدمات تلفن و اینترنت همراه</p>
+                        </div>
+                        <div class="flex my-5 gap-x-4"> <a class="text-yellow-400" href="">۷۰۰</a>
+                            <p class="text-white">از خطوط ایرانسل</p>
+                        </div>
+                        <div class="flex  gap-x-4"> <a class="text-yellow-400" href="">۰۹۳۷۷۰۰۰۰۰۰</a>
+                            <p class="text-white">از سایر خطوط</p>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="flex gap-x-4"> <i class="bi text-white  bi-telephone"></i>
+                            <p class="text-white">خدمات اینترنت ثابت </p>
+                        </div>
+                        <div class="flex my-5 gap-x-4"> <a class="text-yellow-400" href="">۷۰۷</a>
+                            <p class="text-white">از خطوط ایرانسل</p>
+                        </div>
+                        <div class="flex  gap-x-4"> <a class="text-yellow-400" href="">۰۹۳۷۷۰۰۰۰۰۰</a>
+                            <p class="text-white">از سایر خطوط</p>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="flex gap-x-4"> <i class="bi text-white  bi-telephone"></i>
+                            <p class="text-white">خدمات اینترنت فیبر نوری</p>
+                        </div>
+                        <div class="flex my-5 gap-x-4"> <a class="text-yellow-400" href="">۷۸۹</a>
+                            <p class="text-white">از خطوط ایرانسل</p>
+                        </div>
+                        <div class="flex  gap-x-4"> <a class="text-yellow-400" href="">۰۹۳۷۷۸۹۰۰۰۰</a>
+                            <p class="text-white">از سایر خطوط</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" mt-10">
+                    <div class="flex flex-wrap gap-y-5">
+                        <input class="w-full py-4 rounded-full text-center " type="text" placeholder=" ایمیل">
+                        <button class="bg-yellow-400 w-full font-bold py-3 rounded-full"> اطلاعات بیشتر </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-[2px] bg-opacity-50 w-full bg-gray-500 mt-20"></div>
+
+            <div class="mt-10 lg:flex *:mt-10 justify-between items-center">
+                <div class="">
+                    <div class="flex gap-x-5 *:rounded-[50%]  *:bg-yellow-400 *:p-2">
+                        <a href=""><img src="img/link.svg" alt=""></a>
+                        <a href=""><img src="img/ci.svg" alt=""></a>
+                        <a href=""><img src="img/filo.svg" alt=""></a>
+                        <a href=""><img src="img/aparat.svg" alt=""></a>
+                    </div>
+                    <p class="w-full mt-5 text-white">ایرانسل؛ اولین و بزرگترین اپراتور دیجیتال ایران</p>
+                </div>
+                <div class="flex *:w-1/4 justify-center lg:justify-end  *:rounded-lg *:bg-white gap-x-5">
+                    <figure class="flex scale-75 justify-center items-center">
+                        <img src="img/enama.png" alt="">
+                    </figure>
+                    <figure class="flex scale-75 justify-center items-center">
+                        <img class="" src="img/pasokhgo.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="w-full my-5">
+                <p class="text-center bg-white bg-opacity-20 capitalize text-yellow-400">developed by vahidsolimani</p>
+            </div>
+
+
+        </div>
+
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        on: {
+            autoplayTimeLeft(s, time, progress) {
+                progressCircle.style.setProperty("--progress", 1 - progress);
+                progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+            }
+        }
+    });
+</script>
+<script src="js/irancell.js"></script>
+<script>
+    
+</script>
+</html>
